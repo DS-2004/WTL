@@ -1,0 +1,1 @@
+﻿Book List:\n\nTitle: Everyday Italian\nAuthor: Giada De Laurentiis\nYear: 2005\nPrice: $30.00\n\nTitle: Harry Potter\nAuthor: J K. Rowling\nYear: 2005\nPrice: $29.99\n\n

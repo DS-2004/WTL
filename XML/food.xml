@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="food.xsl" ?>
+
+<!DOCTYPE Food [
+    <!ELEMENT Food (Item+)>
+    <!ELEMENT Item (Name, Category, Calories)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Category (#PCDATA)>
+    <!ELEMENT Calories (#PCDATA)>
+]>
+
+
+<Food>
+    <Item>
+        <Name>Pizza</Name>
+        <Category>Fast Food</Category>
+        <Calories>300</Calories>
+    </Item>
+    <Item>
+        <Name>Salad</Name>
+        <Category>Vegetarian</Category>
+        <Calories>150</Calories>
+    </Item>
+    <Item>
+        <Name>Burger</Name>
+        <Category>Fast Food</Category>
+        <Calories>500</Calories>
+    </Item>
+</Food>

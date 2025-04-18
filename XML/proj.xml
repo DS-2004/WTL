@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="proj.css"?>
+<project-mem>
+<title>Project Group</title>
+<leader>
+<name >Diksha Sambrekar</name>
+<rno>32</rno>
+<Expertise>Backend</Expertise>
+<cgpa>9.0</cgpa>
+</leader>
+
+<member>
+<name>Prajakta Kadam</name>
+<rno>48</rno>
+<Expertise>Backend</Expertise>
+<cgpa>8.0</cgpa>
+</member>
+
+<member>
+<name>Neha Dalal</name>
+<rno>45</rno>
+<Expertise>Frontend</Expertise>
+<cgpa>9.0</cgpa>
+</member>
+
+<member>
+<name>Aarya Hulwan</name>
+<rno>29</rno>
+<Expertise>Frontend</Expertise>
+<cgpa>8.0</cgpa>
+</member>
+
+</project-mem> 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="g.xsl" ?>
+
+
+<books>
+    <book>
+        <title>The Great Diksha</title>
+        <author>Neha Dalal</author>
+        <year>2004</year>
+    </book>
+    <book>
+        <title>Life of Diksha</title>
+        <author>Diksha</author>
+        <year>2030</year>
+    </book>
+</books>

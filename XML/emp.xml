@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl" ?>
+
+<!DOCTYPE Employees [
+    <!ELEMENT Employees (Employee+)>
+    <!ELEMENT Employee (Name, Department, Salary)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Department (#PCDATA)>
+    <!ELEMENT  Salary (#PCDATA)>
+]>
+
+<Employees>
+    <Employee>
+        <Name>Diksha</Name>
+        <Department>IT</Department>
+        <Salary>70000</Salary>
+    </Employee>
+    <Employee>
+        <Name>Neha Dalal</Name>
+        <Department>HR</Department>
+        <Salary>60000</Salary>
+    </Employee>
+    <Employee>
+        <Name>Prajakta Kadam</Name>
+        <Department>Finance</Department>
+        <Salary>75000</Salary>
+    </Employee>
+</Employees>

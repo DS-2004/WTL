@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="watch.xsl"?>
+<catalog>
+    <watch>
+        <brand>Rolex</brand>
+        <model>Submariner</model>
+        <price>10000</price>
+    </watch>
+    <watch>
+        <brand>Omega</brand>
+        <model>Seamaster</model>
+        <price>5000</price>
+    </watch>
+    <watch>
+        <brand>Tag Heuer</brand>
+        <model>Aquaracer</model>
+        <price>3000</price>
+    </watch>
+</catalog>

@@ -1,0 +1,73 @@
+Students {
+ display: block;
+ padding: 25px;
+ margin: 20px;
+         }
+student{
+    display:block;
+    background-color:rgb(249, 240, 77) ;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+fname{
+    color: rgb(46, 12, 208);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+lname{
+    color: rgb(46, 12, 208);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+rno{
+    color: rgb(46, 12, 208);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+year{
+    color: rgb(46, 12, 208);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Food {
+    display: block;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  
+  Item {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 20px solid #ccc;
+    background-color: #e68080;
+  } */
+  
+  
+  /* Name {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d2d2d;
+  }
+  
+  Category {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  Calories {
+    display: block;
+    font-size: 16px;
+    color: #900;
+  }
+   */
