@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  
+  <link rel="stylesheet" href="f.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Contact Us</h1>
+
+    <form action="#" method="POST">
+  
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+     
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+      <label for="country">Country</label>
+      <select id="country" name="country" required>
+        <option value="" disabled selected>Select your country</option>
+        <option value="USA">United States</option>
+        <option value="UK">United Kingdom</option>
+        <option value="India">India</option>
+      </select>
+
+      
+      <label>Gender</label>
+      <div>
+        <label class="gender-label">
+          <input type="radio" class="gender-input" name="gender" value="male" required> Male
+        </label>
+        <label class="gender-label">
+          <input type="radio" class="gender-input" name="gender" value="female" required> Female
+        </label>
+        <label class="gender-label">
+          <input type="radio" class="gender-input" name="gender" value="other" required> Other
+        </label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>

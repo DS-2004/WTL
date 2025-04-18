@@ -1,0 +1,30 @@
+.info-card{
+    background-color: rgb(200, 101, 101);
+    display: grid;
+    text-align: center;
+    
+}
+.container{
+    background-color: rgb(230, 179, 179);
+    gap:20px
+  
+
+}
+
+.container button {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #9ec79f;
+    color: white; 
+    padding: 15px 32px; 
+    display: grid;
+    font-size: 15px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 10px; 
+   
+  }
+
+  .container button:hover {
+    background-color: #45a049; 
+  }

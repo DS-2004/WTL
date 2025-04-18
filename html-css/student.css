@@ -1,0 +1,27 @@
+/* Pseudo-class examples */
+.student:hover {
+    color: red; /* Change text color when hovered */
+    font-weight: bold;
+}
+
+.student:nth-child(even) {
+    background-color: lightgray; /* Apply different background to even students */
+}
+
+/* Pseudo-element examples */
+.student::first-letter {
+    font-size: 20px;
+    color: blue; 
+}
+
+.info::before {
+    content: "⚠ "; 
+    color: orange;
+    font-weight: bold;
+}
+
+.info::after {
+    content: " Enjoy learning CSS!";
+    color: green;
+    font-style: italic;
+}
