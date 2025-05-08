@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shrink</title>
+  <style>
+    #text {
+      color: rgb(181, 236, 31);
+      font-size: 19px;
+      font-weight: bold;
+      margin-top: 100px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div id="text">Diksha Sambrekar</div>
+
+<script>
+  let fontSize = 10;         
+  let increasing = true;     
+  const maxSize = 60;
+  const minSize = 10;
+  const text = document.getElementById('text');
+
+  setInterval(() => {
+    if (increasing) {
+      fontSize += 2;
+      if (fontSize >= maxSize) increasing = false;
+    } else {
+      fontSize -= 2;
+      if (fontSize <= minSize) increasing = true;
+    }
+    text.style.fontSize = fontSize + 'px';
+  }, 100);
+</script>
+
+</body>
+</html>
